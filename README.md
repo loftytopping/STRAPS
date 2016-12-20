@@ -1,7 +1,7 @@
 # STRAPS
 Supervised Training Regression for the Arbitrary Prediction of Spectra (STRAPS)  
 
-The idea behind this script is as follows
+The idea behind this model evaluation facility is as follows
 
 We have a database of EI mass spectra, which gives peak height for any given m/z channel, per compound. Each compound is represented by a SMILES string which is a way of representing a chemical structure For more information on SMILES see:
 http://www.daylight.com/dayhtml/doc/theory/theory.smiles.html
