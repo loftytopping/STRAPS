@@ -22,6 +22,10 @@ numpy - '1.11.1'
 matplotlib - '1.3.1'
 scipy - '0.17.1'
 
+To run the code, simply type: Python Master_Script.py
+
+This code provides you will the statistics on model performance when varying the percentage of data used for training over evaluation. It also provides you will predictions on spectra for compounds not included in the training set.
+
 The code also relies on the UManSysProp suite which can be found here: https://github.com/loftytopping/UManSysProp_public
 
 This code focuses on the Aerosol Mass Spectrometer [AMS]. The original spectral library was taken from:
