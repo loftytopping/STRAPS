@@ -26,6 +26,6 @@ The code also relies on the UManSysProp suite which can be found here: https://g
 
 This code focuses on the Aerosol Mass Spectrometer [AMS]. The original spectral library was taken from:
 *http://cires1.colorado.edu/jimenez-group/AMSsd/*
-where each file now has a SMILES string inserted.
+where each file now has a SMILES string inserted. If you use only the .itx files taken from that site, as provided here, you must abide by the citation requirements provided on that site.
 
 Please see the development paper associated with this code for more details.
