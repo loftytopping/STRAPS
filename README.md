@@ -24,3 +24,8 @@ scipy - '0.17.1'
 
 The code also relies on the UManSysProp suite which can be found here: https://github.com/loftytopping/UManSysProp_public
 
+This code focuses on the Aerosol Mass Spectrometer [AMS]. The original spectral library was taken from:
+*http://cires1.colorado.edu/jimenez-group/AMSsd/*
+where each file now has a SMILES string inserted.
+
+Please see the development paper associated with this code for more details.
