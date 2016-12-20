@@ -33,3 +33,7 @@ This code focuses on the Aerosol Mass Spectrometer [AMS]. The original spectral 
 where each file now has a SMILES string inserted. If you use only the .itx files taken from that site, as provided here, you must abide by the citation requirements provided on that site.
 
 Please see the development paper associated with this code for more details.
+
+Code DOI: [![DOI](https://zenodo.org/badge/76975252.svg)](https://zenodo.org/badge/latestdoi/76975252)
+
+
