@@ -12,7 +12,7 @@ The question we want to answer is: Can we predict EI mass spectra based on the s
 http://www.dalkescientific.com/writings/NBN/fingerprints.html
 
 To begin training the models, we want a matrix of identified features per compound as follows:
-# SMILES ---[use SMARTS]---> a matrix of identified features ---> input to machine learning algorithms to relate peak height to features ---> a model that can predict peak height when given a SMILES string.
+*SMILES ---[use SMARTS]---> a matrix of identified features ---> input to machine learning algorithms to relate peak height to features ---> a model that can predict peak height when given a SMILES string.*
 
 As you look through this code you will see we will use the UManSysProp facilities to use some of these SMARTS libraries, whilst for more generic SMARTS we extract SMARTS from the RDKit python package. This is simply for efficiency.
 
