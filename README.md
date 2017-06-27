@@ -7,7 +7,7 @@ We have a database of EI mass spectra, which gives peak height for any given m/z
 http://www.daylight.com/dayhtml/doc/theory/theory.smiles.html
 https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system
 
-The question we want to answer is: Can we predict EI mass spectra based on the structure of a molecule?? To answer this we take the database of measured spectra and then extract structural features per molecules to see if a range of machine learning algorithms can use these features to fit a model that relates peak height to such features. How we extract these features can vary. We normally use a database of SMARTS strings to interrogate SMILEs strings. These SMARTS strings represent key features. For example, this might include CH2 groups, a COOH group next to a CH2 group, and so on. There are many databases that collate such strings and we use a few in this study. We use our own SMARTS libraries based on models of chemical properties such as vapour pressure as well as more generic libraries defined elsewhere, referred to as MACCS keys or FP4 keys:
+The question we want to answer is: Can we predict EI mass spectra based on the structure of a molecule?? To answer this we take the database of measured spectra and then extract structural features to see if a range of machine learning algorithms can use these features to fit a model that predicts peak height. How we extract these features can vary. We normally use a database of SMARTS strings to interrogate SMILEs strings. These SMARTS strings represent key features. For example, this might include CH2 groups, a COOH group next to a CH2 group, and so on. There are many databases that collate such strings and we use a few in this study. We use our own SMARTS libraries based on models of chemical properties such as vapour pressure as well as more generic libraries defined elsewhere, referred to as MACCS keys or FP4 keys:
 
 http://www.dalkescientific.com/writings/NBN/fingerprints.html
 
@@ -32,7 +32,10 @@ This code focuses on the Aerosol Mass Spectrometer [AMS]. The original spectral 
 *http://cires1.colorado.edu/jimenez-group/AMSsd/*
 where each file now has a SMILES string inserted. If you use only the .itx files taken from that site, as provided here, you must abide by the citation requirements provided on that site.
 
-Please see the development paper associated with this code for more details.
+If you use this model or component of it, please cite our development paper in Geoscientific Model Development:
+STRAPS v1.0: evaluating a methodology for predicting electron impact ionisation mass spectra for the aerosol mass spectrometer
+David O. Topping, James Allan, M. Rami Alfarra, and Bernard Aumont
+Geosci. Model Dev., 10, 2365-2377, https://doi.org/10.5194/gmd-10-2365-2017, 2017
 
 Code DOI: [![DOI](https://zenodo.org/badge/76975252.svg)](https://zenodo.org/badge/latestdoi/76975252)
 
